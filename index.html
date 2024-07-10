@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio chat de criptografia</title>
+    <link rel="stylesheet" href="assets/css/estilo.css">
+</head>
+<body>
+    <div class="page">
+        <header>
+            <img id="logo" src="./assets/img/logo.png" alt="Logo Alura" >
+        </header>
+        <main>
+            <div class="content">
+                <section class="entrada">
+                    <textarea name="texto_entrada" id="autoTxtArea" placeholder="Digite seu Texto"></textarea>
+                    
+                    <div class="entrada__footer">
+                        <p><img src="./assets/img/atencao.png" alt="atencao">Apenas letras minúsculas e sem acento.</p>
+                        <div class="botoes">
+                            <button class="criptografar" type="button">Criptografar</button>
+                            <button type="button">Descriptografar</button>
+                        </div>
+                    </div>
+                </section>
+                <section class="saida">
+                    <div class="saida__texto">
+                        <img src="./assets/img/img-area-texto.svg" alt="" >
+                        <h2>Nenhuma mensagem encontrada</h2>
+                        <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+                    </div>
+                </section>
+            </div>
+        </main>
+        <footer></footer>
+    </div>
+    <script src="./assets/js/app.js"></script>
+</body>
+</html>
